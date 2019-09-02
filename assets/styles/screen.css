@@ -1,0 +1,58 @@
+/*
+body {
+	background-color: #ccc;
+}
+article {
+	background-color: #fff;
+}
+*/
+body {
+	font-family: "Open Sans";
+	color: #333;
+	padding-bottom: 100px;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+h1, h2, h3 {
+	font-family: "Oswald";
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+	margin-top: 2em;
+	margin-bottom: 1em;
+
+}
+h4 {
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+p, table {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height: 1.8;
+}
+
+dd {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+dt {
+	margin-top: 1em;
+	font-weight: bold;
+	color: #000;
+}
+#logo {
+	height: 80px;
+	display: block;
+	margin-bottom: 0.5em;
+}
