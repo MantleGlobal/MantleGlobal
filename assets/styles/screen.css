@@ -22,6 +22,12 @@ body {
 		max-width: 720px;
 	}
 }
+h1 {
+	text-indent: 999999px;
+	text-overflow: hidden;
+	text-align: center;
+	display: block;
+}
 
 h1, h2, h3 {
 	font-family: "Oswald";
@@ -55,4 +61,9 @@ dt {
 	height: 80px;
 	display: block;
 	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.company_name {
+	display: none;
 }
